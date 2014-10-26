@@ -1,0 +1,75 @@
+Analysis & Synthesis report for FinalProject
+Thu Nov 28 18:42:21 2013
+Quartus II 64-Bit Version 11.1 Build 259 01/25/2012 Service Pack 2 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis IP Cores Summary
+  6. State Machine - |FinalProject|audio3:comb_43|I2C_AV_Config:u3|mSetup_ST
+  7. User-Specified and Inferred Latches
+  8. Registers Removed During Synthesis
+  9. Removed Registers Triggering Further Register Optimizations
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: audio3:comb_43
+ 12. Parameter Settings for User Entity Instance: audio3:comb_43|VGA_Audio_PLL:p1|altpll:altpll_component
+ 13. Parameter Settings for User Entity Instance: audio3:comb_43|I2C_AV_Config:u3
+ 14. Parameter Settings for User Entity Instance: audio3:comb_43|audio_clock:u4
+ 15. Parameter Settings for User Entity Instance: audio3:comb_43|sine_table:sig1
+ 16. Parameter Settings for User Entity Instance: audio3:comb_43|sine_table:sig2
+ 17. Parameter Settings for Inferred Entity Instance: audio3:comb_43|lpm_mult:Mult0
+ 18. Parameter Settings for Inferred Entity Instance: audio3:comb_43|lpm_mult:Mult1
+ 19. altpll Parameter Settings by Entity Instance
+ 20. lpm_mult Parameter Settings by Entity Instance
+ 21. Port Connectivity Checks: "counter_dec:comb_52"
+ 22. Port Connectivity Checks: "counter_dec:comb_51"
+ 23. Port Connectivity Checks: "counter_dec:comb_48"
+ 24. Port Connectivity Checks: "counter_dec:comb_47"
+ 25. Port Connectivity Checks: "audio3:comb_43|audio_converter:u5"
+ 26. Port Connectivity Checks: "audio3:comb_43|I2C_AV_Config:u3|I2C_Controller:u0"
+ 27. Port Connectivity Checks: "audio3:comb_43|VGA_Audio_PLL:p1"
+ 28. Port Connectivity Checks: "audio3:comb_43"
+ 29. Elapsed Time Per Partition
+ 30. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Nov 28 18:42:21 2013          ;
+; Quartus II 64-Bit Version          ; 11.1 Build 259 01/25/2012 SP 2 SJ Full Version ;
+; Revision Name                      ; FinalProject                                   ;
+; Top-level Entity Name              ; FinalProject                                   ;
+; Family                             ; Cyclone II                                     ;
+; Total logic elements               ; N/A until Partition Merge                      ;
+;     Total combinational functions  ; N/A until Partition Merge                      ;
+;     Dedicated logic registers      ; N/A until Partition Merge                      ;
+; Total registers                    ; N/A until Partition Merge                      ;
+; Total pins                         ; N/A until Partition Merge                      ;
+; Total virtual pins                 ; N/A until Partition Merge                      ;
+; Total memory bits                  ; N/A until Partition Merge              
